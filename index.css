@@ -1,0 +1,33 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: nowrap;
+}
+.container div {
+  flex: 1;
+}
+.container div iframe {
+  padding: 10px;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+.heading h2 {
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+.heeading h3 {
+  padding: 0;
+  margin: 0;
+}
